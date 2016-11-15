@@ -1,0 +1,78 @@
+.column {
+	font-family: sans-serif;
+	background-color: pink;
+	font-size: 20px; 
+}
+
+.first {
+	font size: 40px;
+	font-family: fantasy;
+}
+
+.data_row {
+	font-family: sans-serif;
+	font-size: 20px;	
+}
+
+.data_row:first-letter {
+	font-size: 1.3em;
+	color: #c36;
+	font-weight: bold;
+}
+
+.data:hover {
+	background-color:#ffc;
+}
+
+.data:hover .data_row:first-child {
+	background-color: #f09;
+}
+
+.second {
+	font-size: 40px;
+	font-variant: small-caps;
+	font-family: fantasy;
+} 
+
+.content_link {
+	text-decoration: none;	
+}
+
+.content_link:hover {
+	color: #f09;
+}
+
+.content, li {
+	list-style-type: none;
+}
+
+img {
+	max-width: 100px;
+}
+
+img:hover {
+	max-width: 200px;
+	max-height: auto;
+}
+
+.p-f {
+	background-color: darkblue;
+	color: white;
+}
+
+.p-s {
+	font-size: 20px;
+	font-family: "Segoe UI Light";
+}
+
+.p-s:first-letter {
+	font-size: 2em;
+	color: #ea4;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.p-s:first-line {
+	color: #844;
+	font-style: italic;
+}
